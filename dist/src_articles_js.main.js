@@ -1,0 +1,168 @@
+"use strict";
+(self["webpackChunknaha"] = self["webpackChunknaha"] || []).push([["src_articles_js"],{
+
+/***/ "./src/articles.js":
+/*!*************************!*\
+  !*** ./src/articles.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _images_articleImg1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/articleImg1.jpg */ "./src/images/articleImg1.jpg");
+
+
+//find main section and add the article section
+
+let mainBody = document.getElementById('main');
+let articleSec = document.createElement('section');
+articleSec.classList.add('card-row');
+
+let firstArticle = document.createElement('article');
+firstArticle.classList.add('card');
+
+//Adding Img
+
+let firstArticleImg = new Image();
+firstArticleImg.src = _images_articleImg1_jpg__WEBPACK_IMPORTED_MODULE_0__;
+firstArticleImg.classList.add('zoom');
+firstArticleImg.alt = "Man walking past a for rent sign";
+firstArticle.append(firstArticleImg);
+
+//Title section
+
+let firstArticleTitle = document.createElement('h4');
+firstArticleTitle.innerText = "Biden Wants to Offer More Housing Vouchers...";
+firstArticle.append(firstArticleTitle);
+
+//Info section 
+
+let firstArticleInfo = document.createElement('ul');
+let firstArticlePublisher = document.createElement('li');
+firstArticlePublisher.innerText = "STATELINE ARTICLE";
+
+let firstArticleDate = document.createElement('li');
+firstArticleDate.innerText = "May 12, 2021";
+
+let firstArticleAuthor = document.createElement('li');
+firstArticleAuthor.innerHTML = '<i class="far fa-user">';
+
+let firstArticleAuthorName = " by Kristian Hernandez";
+
+let firstArticleBio = document.createElement('p');
+firstArticleBio.innerText = "Over 2.2 million households receive subsidies through the Housing Choice Voucher Program.";
+
+firstArticleAuthor.append(firstArticleAuthorName);
+firstArticleInfo.append(firstArticlePublisher);
+firstArticleInfo.append(firstArticleDate);
+firstArticleInfo.append(firstArticleAuthor);
+firstArticleInfo.append(firstArticleBio);
+
+firstArticle.append(firstArticleInfo);
+articleSec.append(firstArticle);
+
+//Start of second article
+
+let secondArticle = document.createElement('article');
+secondArticle.classList.add('card');
+
+//Adding Img
+
+let secondArticleImg = new Image();
+secondArticleImg.src = _images_articleImg1_jpg__WEBPACK_IMPORTED_MODULE_0__;
+secondArticleImg.classList.add('zoom');
+secondArticleImg.alt = "Man walking past a for rent sign";
+secondArticle.append(secondArticleImg);
+
+//Title section
+
+let secondArticleTitle = document.createElement('h4');
+secondArticleTitle.innerText = "Biden Wants to Offer More Housing Vouchers...";
+secondArticle.append(secondArticleTitle);
+
+//Info section 
+
+let secondArticleInfo = document.createElement('ul');
+let secondArticlePublisher = document.createElement('li');
+secondArticlePublisher.innerText = "STATELINE ARTICLE";
+
+let secondArticleDate = document.createElement('li');
+secondArticleDate.innerText = "May 12, 2021";
+
+let secondArticleAuthor = document.createElement('li');
+secondArticleAuthor.innerHTML = '<i class="far fa-user">';
+
+let secondArticleAuthorName = " by Kristian Hernandez";
+
+let secondArticleBio = document.createElement('p');
+secondArticleBio.innerText = "Over 2.2 million households receive subsidies through the Housing Choice Voucher Program.";
+
+secondArticleAuthor.append(secondArticleAuthorName);
+secondArticleInfo.append(secondArticlePublisher);
+secondArticleInfo.append(secondArticleDate);
+secondArticleInfo.append(secondArticleAuthor);
+secondArticleInfo.append(secondArticleBio);
+
+secondArticle.append(secondArticleInfo);
+articleSec.append(secondArticle);
+
+//Start of thrid article
+
+let thirdArticle = document.createElement('article');
+thirdArticle.classList.add('card');
+
+//Adding Img
+
+let thirdArticleImg = new Image();
+thirdArticleImg.src = _images_articleImg1_jpg__WEBPACK_IMPORTED_MODULE_0__;
+thirdArticleImg.classList.add('zoom');
+thirdArticleImg.alt = "Man walking past a for rent sign";
+thirdArticle.append(thirdArticleImg);
+
+//Title section
+
+let thirdArticleTitle = document.createElement('h4');
+thirdArticleTitle.innerText = "Biden Wants to Offer More Housing Vouchers...";
+thirdArticle.append(thirdArticleTitle);
+
+//Info section 
+
+let thirdArticleInfo = document.createElement('ul');
+let thirdArticlePublisher = document.createElement('li');
+thirdArticlePublisher.innerText = "STATELINE ARTICLE";
+
+let thirdArticleDate = document.createElement('li');
+thirdArticleDate.innerText = "May 12, 2021";
+
+let thirdArticleAuthor = document.createElement('li');
+thirdArticleAuthor.innerHTML = '<i class="far fa-user">';
+
+let thirdArticleAuthorName = " by Kristian Hernandez";
+
+let thirdArticleBio = document.createElement('p');
+thirdArticleBio.innerText = "Over 2.2 million households receive subsidies through the Housing Choice Voucher Program.";
+
+thirdArticleAuthor.append(thirdArticleAuthorName);
+thirdArticleInfo.append(thirdArticlePublisher);
+thirdArticleInfo.append(thirdArticleDate);
+thirdArticleInfo.append(thirdArticleAuthor);
+thirdArticleInfo.append(thirdArticleBio);
+
+thirdArticle.append(thirdArticleInfo);
+articleSec.append(thirdArticle);
+
+mainBody.append(articleSec);
+
+/***/ }),
+
+/***/ "./src/images/articleImg1.jpg":
+/*!************************************!*\
+  !*** ./src/images/articleImg1.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "36f4225d00eb6935ec63.jpg";
+
+/***/ })
+
+}]);
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3JjX2FydGljbGVzX2pzLm1haW4uanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBbUQ7O0FBRW5EOztBQUVBO0FBQ0E7QUFDQTs7QUFFQTtBQUNBOztBQUVBOztBQUVBO0FBQ0Esc0JBQXNCLG9EQUFXO0FBQ2pDO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTs7QUFFQTtBQUNBOztBQUVBOztBQUVBO0FBQ0EsdUJBQXVCLG9EQUFXO0FBQ2xDO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTs7QUFFQTtBQUNBOztBQUVBOztBQUVBO0FBQ0Esc0JBQXNCLG9EQUFXO0FBQ2pDO0FBQ0E7QUFDQTs7QUFFQTs7QUFFQTtBQUNBO0FBQ0E7O0FBRUE7O0FBRUE7QUFDQTtBQUNBOztBQUVBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQTs7QUFFQTtBQUNBOztBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FBRUE7QUFDQTs7QUFFQSIsInNvdXJjZXMiOlsid2VicGFjazovL25haGEvLi9zcmMvYXJ0aWNsZXMuanMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGFydGljbGVJbWcxIGZyb20gJy4vaW1hZ2VzL2FydGljbGVJbWcxLmpwZyc7XG5cbi8vZmluZCBtYWluIHNlY3Rpb24gYW5kIGFkZCB0aGUgYXJ0aWNsZSBzZWN0aW9uXG5cbmxldCBtYWluQm9keSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdtYWluJyk7XG5sZXQgYXJ0aWNsZVNlYyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3NlY3Rpb24nKTtcbmFydGljbGVTZWMuY2xhc3NMaXN0LmFkZCgnY2FyZC1yb3cnKTtcblxubGV0IGZpcnN0QXJ0aWNsZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2FydGljbGUnKTtcbmZpcnN0QXJ0aWNsZS5jbGFzc0xpc3QuYWRkKCdjYXJkJyk7XG5cbi8vQWRkaW5nIEltZ1xuXG5sZXQgZmlyc3RBcnRpY2xlSW1nID0gbmV3IEltYWdlKCk7XG5maXJzdEFydGljbGVJbWcuc3JjID0gYXJ0aWNsZUltZzE7XG5maXJzdEFydGljbGVJbWcuY2xhc3NMaXN0LmFkZCgnem9vbScpO1xuZmlyc3RBcnRpY2xlSW1nLmFsdCA9IFwiTWFuIHdhbGtpbmcgcGFzdCBhIGZvciByZW50IHNpZ25cIjtcbmZpcnN0QXJ0aWNsZS5hcHBlbmQoZmlyc3RBcnRpY2xlSW1nKTtcblxuLy9UaXRsZSBzZWN0aW9uXG5cbmxldCBmaXJzdEFydGljbGVUaXRsZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2g0Jyk7XG5maXJzdEFydGljbGVUaXRsZS5pbm5lclRleHQgPSBcIkJpZGVuIFdhbnRzIHRvIE9mZmVyIE1vcmUgSG91c2luZyBWb3VjaGVycy4uLlwiO1xuZmlyc3RBcnRpY2xlLmFwcGVuZChmaXJzdEFydGljbGVUaXRsZSk7XG5cbi8vSW5mbyBzZWN0aW9uIFxuXG5sZXQgZmlyc3RBcnRpY2xlSW5mbyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3VsJyk7XG5sZXQgZmlyc3RBcnRpY2xlUHVibGlzaGVyID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnbGknKTtcbmZpcnN0QXJ0aWNsZVB1Ymxpc2hlci5pbm5lclRleHQgPSBcIlNUQVRFTElORSBBUlRJQ0xFXCI7XG5cbmxldCBmaXJzdEFydGljbGVEYXRlID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnbGknKTtcbmZpcnN0QXJ0aWNsZURhdGUuaW5uZXJUZXh0ID0gXCJNYXkgMTIsIDIwMjFcIjtcblxubGV0IGZpcnN0QXJ0aWNsZUF1dGhvciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2xpJyk7XG5maXJzdEFydGljbGVBdXRob3IuaW5uZXJIVE1MID0gJzxpIGNsYXNzPVwiZmFyIGZhLXVzZXJcIj4nO1xuXG5sZXQgZmlyc3RBcnRpY2xlQXV0aG9yTmFtZSA9IFwiIGJ5IEtyaXN0aWFuIEhlcm5hbmRlelwiO1xuXG5sZXQgZmlyc3RBcnRpY2xlQmlvID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgncCcpO1xuZmlyc3RBcnRpY2xlQmlvLmlubmVyVGV4dCA9IFwiT3ZlciAyLjIgbWlsbGlvbiBob3VzZWhvbGRzIHJlY2VpdmUgc3Vic2lkaWVzIHRocm91Z2ggdGhlIEhvdXNpbmcgQ2hvaWNlIFZvdWNoZXIgUHJvZ3JhbS5cIjtcblxuZmlyc3RBcnRpY2xlQXV0aG9yLmFwcGVuZChmaXJzdEFydGljbGVBdXRob3JOYW1lKTtcbmZpcnN0QXJ0aWNsZUluZm8uYXBwZW5kKGZpcnN0QXJ0aWNsZVB1Ymxpc2hlcik7XG5maXJzdEFydGljbGVJbmZvLmFwcGVuZChmaXJzdEFydGljbGVEYXRlKTtcbmZpcnN0QXJ0aWNsZUluZm8uYXBwZW5kKGZpcnN0QXJ0aWNsZUF1dGhvcik7XG5maXJzdEFydGljbGVJbmZvLmFwcGVuZChmaXJzdEFydGljbGVCaW8pO1xuXG5maXJzdEFydGljbGUuYXBwZW5kKGZpcnN0QXJ0aWNsZUluZm8pO1xuYXJ0aWNsZVNlYy5hcHBlbmQoZmlyc3RBcnRpY2xlKTtcblxuLy9TdGFydCBvZiBzZWNvbmQgYXJ0aWNsZVxuXG5sZXQgc2Vjb25kQXJ0aWNsZSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2FydGljbGUnKTtcbnNlY29uZEFydGljbGUuY2xhc3NMaXN0LmFkZCgnY2FyZCcpO1xuXG4vL0FkZGluZyBJbWdcblxubGV0IHNlY29uZEFydGljbGVJbWcgPSBuZXcgSW1hZ2UoKTtcbnNlY29uZEFydGljbGVJbWcuc3JjID0gYXJ0aWNsZUltZzE7XG5zZWNvbmRBcnRpY2xlSW1nLmNsYXNzTGlzdC5hZGQoJ3pvb20nKTtcbnNlY29uZEFydGljbGVJbWcuYWx0ID0gXCJNYW4gd2Fsa2luZyBwYXN0IGEgZm9yIHJlbnQgc2lnblwiO1xuc2Vjb25kQXJ0aWNsZS5hcHBlbmQoc2Vjb25kQXJ0aWNsZUltZyk7XG5cbi8vVGl0bGUgc2VjdGlvblxuXG5sZXQgc2Vjb25kQXJ0aWNsZVRpdGxlID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnaDQnKTtcbnNlY29uZEFydGljbGVUaXRsZS5pbm5lclRleHQgPSBcIkJpZGVuIFdhbnRzIHRvIE9mZmVyIE1vcmUgSG91c2luZyBWb3VjaGVycy4uLlwiO1xuc2Vjb25kQXJ0aWNsZS5hcHBlbmQoc2Vjb25kQXJ0aWNsZVRpdGxlKTtcblxuLy9JbmZvIHNlY3Rpb24gXG5cbmxldCBzZWNvbmRBcnRpY2xlSW5mbyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3VsJyk7XG5sZXQgc2Vjb25kQXJ0aWNsZVB1Ymxpc2hlciA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2xpJyk7XG5zZWNvbmRBcnRpY2xlUHVibGlzaGVyLmlubmVyVGV4dCA9IFwiU1RBVEVMSU5FIEFSVElDTEVcIjtcblxubGV0IHNlY29uZEFydGljbGVEYXRlID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnbGknKTtcbnNlY29uZEFydGljbGVEYXRlLmlubmVyVGV4dCA9IFwiTWF5IDEyLCAyMDIxXCI7XG5cbmxldCBzZWNvbmRBcnRpY2xlQXV0aG9yID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnbGknKTtcbnNlY29uZEFydGljbGVBdXRob3IuaW5uZXJIVE1MID0gJzxpIGNsYXNzPVwiZmFyIGZhLXVzZXJcIj4nO1xuXG5sZXQgc2Vjb25kQXJ0aWNsZUF1dGhvck5hbWUgPSBcIiBieSBLcmlzdGlhbiBIZXJuYW5kZXpcIjtcblxubGV0IHNlY29uZEFydGljbGVCaW8gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdwJyk7XG5zZWNvbmRBcnRpY2xlQmlvLmlubmVyVGV4dCA9IFwiT3ZlciAyLjIgbWlsbGlvbiBob3VzZWhvbGRzIHJlY2VpdmUgc3Vic2lkaWVzIHRocm91Z2ggdGhlIEhvdXNpbmcgQ2hvaWNlIFZvdWNoZXIgUHJvZ3JhbS5cIjtcblxuc2Vjb25kQXJ0aWNsZUF1dGhvci5hcHBlbmQoc2Vjb25kQXJ0aWNsZUF1dGhvck5hbWUpO1xuc2Vjb25kQXJ0aWNsZUluZm8uYXBwZW5kKHNlY29uZEFydGljbGVQdWJsaXNoZXIpO1xuc2Vjb25kQXJ0aWNsZUluZm8uYXBwZW5kKHNlY29uZEFydGljbGVEYXRlKTtcbnNlY29uZEFydGljbGVJbmZvLmFwcGVuZChzZWNvbmRBcnRpY2xlQXV0aG9yKTtcbnNlY29uZEFydGljbGVJbmZvLmFwcGVuZChzZWNvbmRBcnRpY2xlQmlvKTtcblxuc2Vjb25kQXJ0aWNsZS5hcHBlbmQoc2Vjb25kQXJ0aWNsZUluZm8pO1xuYXJ0aWNsZVNlYy5hcHBlbmQoc2Vjb25kQXJ0aWNsZSk7XG5cbi8vU3RhcnQgb2YgdGhyaWQgYXJ0aWNsZVxuXG5sZXQgdGhpcmRBcnRpY2xlID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYXJ0aWNsZScpO1xudGhpcmRBcnRpY2xlLmNsYXNzTGlzdC5hZGQoJ2NhcmQnKTtcblxuLy9BZGRpbmcgSW1nXG5cbmxldCB0aGlyZEFydGljbGVJbWcgPSBuZXcgSW1hZ2UoKTtcbnRoaXJkQXJ0aWNsZUltZy5zcmMgPSBhcnRpY2xlSW1nMTtcbnRoaXJkQXJ0aWNsZUltZy5jbGFzc0xpc3QuYWRkKCd6b29tJyk7XG50aGlyZEFydGljbGVJbWcuYWx0ID0gXCJNYW4gd2Fsa2luZyBwYXN0IGEgZm9yIHJlbnQgc2lnblwiO1xudGhpcmRBcnRpY2xlLmFwcGVuZCh0aGlyZEFydGljbGVJbWcpO1xuXG4vL1RpdGxlIHNlY3Rpb25cblxubGV0IHRoaXJkQXJ0aWNsZVRpdGxlID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnaDQnKTtcbnRoaXJkQXJ0aWNsZVRpdGxlLmlubmVyVGV4dCA9IFwiQmlkZW4gV2FudHMgdG8gT2ZmZXIgTW9yZSBIb3VzaW5nIFZvdWNoZXJzLi4uXCI7XG50aGlyZEFydGljbGUuYXBwZW5kKHRoaXJkQXJ0aWNsZVRpdGxlKTtcblxuLy9JbmZvIHNlY3Rpb24gXG5cbmxldCB0aGlyZEFydGljbGVJbmZvID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgndWwnKTtcbmxldCB0aGlyZEFydGljbGVQdWJsaXNoZXIgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdsaScpO1xudGhpcmRBcnRpY2xlUHVibGlzaGVyLmlubmVyVGV4dCA9IFwiU1RBVEVMSU5FIEFSVElDTEVcIjtcblxubGV0IHRoaXJkQXJ0aWNsZURhdGUgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdsaScpO1xudGhpcmRBcnRpY2xlRGF0ZS5pbm5lclRleHQgPSBcIk1heSAxMiwgMjAyMVwiO1xuXG5sZXQgdGhpcmRBcnRpY2xlQXV0aG9yID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnbGknKTtcbnRoaXJkQXJ0aWNsZUF1dGhvci5pbm5lckhUTUwgPSAnPGkgY2xhc3M9XCJmYXIgZmEtdXNlclwiPic7XG5cbmxldCB0aGlyZEFydGljbGVBdXRob3JOYW1lID0gXCIgYnkgS3Jpc3RpYW4gSGVybmFuZGV6XCI7XG5cbmxldCB0aGlyZEFydGljbGVCaW8gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdwJyk7XG50aGlyZEFydGljbGVCaW8uaW5uZXJUZXh0ID0gXCJPdmVyIDIuMiBtaWxsaW9uIGhvdXNlaG9sZHMgcmVjZWl2ZSBzdWJzaWRpZXMgdGhyb3VnaCB0aGUgSG91c2luZyBDaG9pY2UgVm91Y2hlciBQcm9ncmFtLlwiO1xuXG50aGlyZEFydGljbGVBdXRob3IuYXBwZW5kKHRoaXJkQXJ0aWNsZUF1dGhvck5hbWUpO1xudGhpcmRBcnRpY2xlSW5mby5hcHBlbmQodGhpcmRBcnRpY2xlUHVibGlzaGVyKTtcbnRoaXJkQXJ0aWNsZUluZm8uYXBwZW5kKHRoaXJkQXJ0aWNsZURhdGUpO1xudGhpcmRBcnRpY2xlSW5mby5hcHBlbmQodGhpcmRBcnRpY2xlQXV0aG9yKTtcbnRoaXJkQXJ0aWNsZUluZm8uYXBwZW5kKHRoaXJkQXJ0aWNsZUJpbyk7XG5cbnRoaXJkQXJ0aWNsZS5hcHBlbmQodGhpcmRBcnRpY2xlSW5mbyk7XG5hcnRpY2xlU2VjLmFwcGVuZCh0aGlyZEFydGljbGUpO1xuXG5tYWluQm9keS5hcHBlbmQoYXJ0aWNsZVNlYyk7Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9
