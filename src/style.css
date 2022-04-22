@@ -1,3 +1,12 @@
+@font-face {
+	font-family: 'Inter';
+	src: url(./Inter/Inter-VariableFont_slnt\,wght.ttf) format('woff2');
+   }
+   @font-face {
+	font-family: 'InterBold';
+	src: url(./Inter/static/Inter-SemiBold.ttf) format('woff2');
+   }
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -44,7 +53,7 @@ table {
 }
 /* Start main styling  */
 html, body {
-	font-family: Open_Sans ,Helvetica, sans-serif;
+	font-family: 'Inter' ,Helvetica, sans-serif;
 	perspective: 1px;
 	transform-style: preserve-3d;
 	height: 100%;
@@ -58,6 +67,7 @@ html, body {
  .hero {
 	position: relative;
 	padding: 25vh 10%;
+	margin-top: 10rem;
 	height: 10vh;
 	display: block;
 	z-index: -1;
@@ -75,7 +85,7 @@ html, body {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	transform: translateZ(-1px) scale(3);
+	transform: translateZ(-1px) scale(4);
 }
 .content {
 	background-color: #cdcfcc;
@@ -179,8 +189,13 @@ main {
  }
  
  h2 {
-	padding: 20px 0px;
-	text-align: center;
+	padding: 0 5rem 1rem;
+	font-family: 'InterBold';
+    font-size: 24px;
+ }
+ .line {
+	width: 90%;
+    background-color: black;
  }
  
  .card-row {
@@ -270,14 +285,27 @@ h4 {
 		 padding-left: 3rem;
 		 padding-top: 1.5rem;
 	 }
+	 .hero{
+		margin-top: 5rem;
+	 }
+	 .hero:before {
+		transform: translateZ(-1px) scale(3);
+		background-color: black;
+	 }
 	 .content {
 		 padding: 0 5%;
 	 }
 	 .subcontent {
 		 padding-top: 11rem;
 	 }
+	 h2 {
+		 padding: 0 0 1rem 0;
+	 }
 	 .intro {
 		 padding: 0 0 50px 0;
+	 }
+	 .bios {
+		 gap: 2rem;
 	 }
 	 footer {
 		 padding: 0;

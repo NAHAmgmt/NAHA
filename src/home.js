@@ -1,6 +1,6 @@
 import City from './images/city.jpeg';
 import Yellow from './images/yellowHouse.jpeg';
-import Fam from './images/family.png';
+import Fam from './images/family.jpg';
 
 export const home = () => {
         let card1 = document.getElementById('1');
