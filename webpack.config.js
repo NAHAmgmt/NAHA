@@ -13,7 +13,7 @@ module.exports = {
     new HtmlWebpackPlugin({
         filename: 'aboutUs.html',
         template: 'src/aboutUs.html',
-        chunks: ['exampleEntry'],
+        chunks: ['exampleEntry'],   
       }),
   ],
   devtool: 'inline-source-map',
