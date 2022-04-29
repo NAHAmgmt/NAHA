@@ -1,4 +1,6 @@
 import articleImg1 from './images/articleImg1.jpg';
+import articleImg2 from './images/articleImg2.jpg';
+import articleImg3 from './images/articleImg3.jpg';
 
 export const articles = () => {
     let mainBody = document.getElementById('article');
@@ -56,33 +58,33 @@ secondArticle.classList.add('card');
 //Adding Img
 
 let secondArticleImg = new Image();
-secondArticleImg.src = articleImg1;
+secondArticleImg.src = articleImg2;
 secondArticleImg.classList.add('zoom');
-secondArticleImg.alt = "Man walking past a for rent sign";
+secondArticleImg.alt = "car parked in from of rent sign";
 secondArticle.append(secondArticleImg);
 
 //Title section
 
 let secondArticleTitle = document.createElement('h4');
-secondArticleTitle.innerText = "Biden Wants to Offer More Housing Vouchers...";
+secondArticleTitle.innerText = "A growing share of Americans say affordable housing is...";
 secondArticle.append(secondArticleTitle);
 
 //Info section 
 
 let secondArticleInfo = document.createElement('ul');
 let secondArticlePublisher = document.createElement('li');
-secondArticlePublisher.innerText = "STATELINE ARTICLE";
+secondArticlePublisher.innerText = "PEW RESEARCH ARTICLE";
 
 let secondArticleDate = document.createElement('li');
-secondArticleDate.innerText = "May 12, 2021";
+secondArticleDate.innerText = "Jan 18, 2022";
 
 let secondArticleAuthor = document.createElement('li');
 secondArticleAuthor.innerHTML = '<i class="far fa-user">';
 
-let secondArticleAuthorName = " by Kristian Hernandez";
+let secondArticleAuthorName = " by Katherine Schaeffer";
 
 let secondArticleBio = document.createElement('p');
-secondArticleBio.innerText = "Over 2.2 million households receive subsidies through the Housing Choice Voucher Program.";
+secondArticleBio.innerText = "49% of Americans say the availability of affordable housing in their local community is a major problem, up 10 points from early 2018.";
 
 secondArticleAuthor.append(secondArticleAuthorName);
 secondArticleInfo.append(secondArticlePublisher);
@@ -101,33 +103,33 @@ thirdArticle.classList.add('card');
 //Adding Img
 
 let thirdArticleImg = new Image();
-thirdArticleImg.src = articleImg1;
+thirdArticleImg.src = articleImg3;
 thirdArticleImg.classList.add('zoom');
-thirdArticleImg.alt = "Man walking past a for rent sign";
+thirdArticleImg.alt = "colorful cartoon of people drawing houses";
 thirdArticle.append(thirdArticleImg);
 
 //Title section
 
 let thirdArticleTitle = document.createElement('h4');
-thirdArticleTitle.innerText = "Biden Wants to Offer More Housing Vouchers...";
+thirdArticleTitle.innerText = "The affordable housing crisis, explained...";
 thirdArticle.append(thirdArticleTitle);
 
 //Info section 
 
 let thirdArticleInfo = document.createElement('ul');
 let thirdArticlePublisher = document.createElement('li');
-thirdArticlePublisher.innerText = "STATELINE ARTICLE";
+thirdArticlePublisher.innerText = "CURBED.COM ARTICLE";
 
 let thirdArticleDate = document.createElement('li');
-thirdArticleDate.innerText = "May 12, 2021";
+thirdArticleDate.innerText = "Mar 2, 2020";
 
 let thirdArticleAuthor = document.createElement('li');
 thirdArticleAuthor.innerHTML = '<i class="far fa-user">';
 
-let thirdArticleAuthorName = " by Kristian Hernandez";
+let thirdArticleAuthorName = " by Patrick Sisson, Jeff Andrews, and Alex Bazeley ";
 
 let thirdArticleBio = document.createElement('p');
-thirdArticleBio.innerText = "Over 2.2 million households receive subsidies through the Housing Choice Voucher Program.";
+thirdArticleBio.innerText = "Harvard researchers found that in 2016, nearly half of renters were cost-burdened (defined as spending 30 percent or more of their income on rent).";
 
 thirdArticleAuthor.append(thirdArticleAuthorName);
 thirdArticleInfo.append(thirdArticlePublisher);

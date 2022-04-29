@@ -90,7 +90,7 @@ html, body {
 .content {
 	background-color: #cdcfcc;
 	position: relative;
-	padding: 0 15%;
+	padding: 0 10%;
 	line-height: 1.5;
 }
 /* subcontent content class for anything not the homepage */
@@ -261,6 +261,11 @@ h4 {
 	 font-size: .85rem;
  }
  .bottom {
+	bottom: 0;
+    position: absolute;
+    width: 100%;
+ }
+ .bottomSmall {
 	bottom: 0;
     position: absolute;
     width: 100%;
