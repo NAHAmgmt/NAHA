@@ -1,4 +1,4 @@
-import img from './images/donato.png';
+import img from './images/icon.png';
 
 export const bio = () => {
     let bio = document.getElementById('bios');
