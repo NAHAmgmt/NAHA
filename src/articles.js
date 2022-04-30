@@ -10,7 +10,7 @@ articleSec.classList.add('card-row');
 let firstArticle = document.createElement('article');
 firstArticle.classList.add('card');
 
-//Adding Img
+//Adding Img 
 
 let firstArticleImg = new Image();
 firstArticleImg.src = articleImg1;
@@ -20,9 +20,12 @@ firstArticle.append(firstArticleImg);
 
 //Title section
 
+let firstArticleLink = document.createElement('a');
+firstArticleLink.href = 'https://www.pewtrusts.org/en/research-and-analysis/blogs/stateline/2021/05/12/biden-wants-to-offer-more-housing-vouchers-many-landlords-wont-accept-them';
 let firstArticleTitle = document.createElement('h4');
 firstArticleTitle.innerText = "Biden Wants to Offer More Housing Vouchers...";
-firstArticle.append(firstArticleTitle);
+firstArticleLink.append(firstArticleTitle)
+firstArticle.append(firstArticleLink);
 
 //Info section 
 
@@ -64,10 +67,12 @@ secondArticleImg.alt = "car parked in from of rent sign";
 secondArticle.append(secondArticleImg);
 
 //Title section
-
+let secondArticleLink = document.createElement('a');
+secondArticleLink.href= 'https://www.pewresearch.org/fact-tank/2022/01/18/a-growing-share-of-americans-say-affordable-housing-is-a-major-problem-where-they-live/';
 let secondArticleTitle = document.createElement('h4');
 secondArticleTitle.innerText = "A growing share of Americans say affordable housing is...";
-secondArticle.append(secondArticleTitle);
+secondArticleLink.append(secondArticleTitle);
+secondArticle.append(secondArticleLink);
 
 //Info section 
 
@@ -110,9 +115,12 @@ thirdArticle.append(thirdArticleImg);
 
 //Title section
 
+let thirdArticleLink = document.createElement('a');
+thirdArticleLink.href= 'https://archive.curbed.com/2019/5/15/18617763/affordable-housing-policy-rent-real-estate-apartment';
 let thirdArticleTitle = document.createElement('h4');
 thirdArticleTitle.innerText = "The affordable housing crisis, explained...";
-thirdArticle.append(thirdArticleTitle);
+thirdArticleLink.append(thirdArticleTitle);
+thirdArticle.append(thirdArticleLink);
 
 //Info section 
 
