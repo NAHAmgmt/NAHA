@@ -288,7 +288,8 @@ h4 {
 	 }
 	 .name {
 		 padding-left: 3rem;
-		 padding-top: 1.5rem;
+		 padding-top: 0.75rem;
+    	 padding-bottom: 0.75rem;
 	 }
 	 .hero{
 		margin-top: 5rem;
