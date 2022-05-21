@@ -70,7 +70,6 @@ html, body {
 	margin-top: 10rem;
 	height: 10vh;
 	display: block;
-	z-index: -100 !important;
 	text-align: center;
 	transform-style: inherit;
 }
@@ -86,7 +85,6 @@ html, body {
 	background-position: center;
 	background-repeat: no-repeat;
 	transform: translateZ(-1px) scale(4);
-	z-index: -100 !important;
 }
 .content {
 	background-color: #cdcfcc;
@@ -122,6 +120,27 @@ nav {
 	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 20%);
 	z-index: 2 !important;
 	position: absolute;
+}
+nav:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: translateZ(-1px) scale(1);
+	background: rgb(22,95,103);
+	z-index: -2 !important;
+	background: linear-gradient(150deg, rgba(22,95,103,1) 0%, rgba(30,140,152,1) 50%, rgba(22,95,103,1) 100%);
+}
+.upper:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transform: translateZ(-1px) scale(1);
 }
 nav a {
 	text-decoration: none;
