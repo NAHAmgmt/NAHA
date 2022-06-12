@@ -213,6 +213,9 @@ main {
 	font-family: 'InterBold';
     font-size: 24px;
  }
+ h3 {
+	 font-weight: 600;
+ }
  .line {
 	width: 90%;
     background-color: black;
@@ -285,11 +288,6 @@ h4 {
     position: absolute;
     width: 100%;
  }
- .bottomSmall {
-	bottom: 0;
-    position: absolute;
-    width: 100%;
- }
 
 /* Bio style */
 .bios {
@@ -332,6 +330,8 @@ h4 {
 	 }
 	 .bios {
 		 gap: 2rem;
+		 flex-direction: column;
+		 padding: 0 2rem;
 	 }
 	 footer {
 		 padding: 0;
