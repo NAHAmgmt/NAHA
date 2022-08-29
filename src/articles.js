@@ -27,9 +27,6 @@ if (home) {
     let mainBody = document.getElementById('article');
     let sectionTag = document.createElement('section');
     for(let i=0;i<3;i++){
-        console.log(articlesArray[i]);
-        
-        
         sectionTag.classList.add('card-row');
 
         let article = document.createElement('article');
@@ -78,7 +75,6 @@ if (home) {
     let mainBody = document.getElementById('article-sec');
     let sectionTag = document.createElement('section');
     for(let i=0;i<articlesArray.length;i++){
-        console.log(articlesArray[i]);
         
         
         sectionTag.classList.add('card-row');
